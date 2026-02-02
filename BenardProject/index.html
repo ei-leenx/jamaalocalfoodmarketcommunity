@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <link rel="stylesheet" href="dist/css/bootstrap.css">
+    <script src="dist/js/bootstrap.js"></script>
+    <style>
+        image :hover{
+            transform: scale(1,2);
+            transition: 3s;
+        }
+        .carousel-item{ height: 400px; object-fit: cover;}
+        .font{ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: x-large;}
+        .img{object-fit: cover;}
+    </style>
+</head>
+<body>
+    <!-- section one starts here -->
+         <section class="row">
+            <div class="col-lg-12">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                 <a href="index.html" class="navbar-brand"><b class="text-danger">Jamaalocalfoodmarketcommunity</b></a>
+
+                 <!-- below is a hamburger button to either collapse or expand content depending on th screen sizes -->
+                  <button class="navbar-toggler collapsed" data-bs-toggle=" collapse" data-bs-target="navbar-contents">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div id="navbar-contents" class="navbar-collapse collapse">
+                    <div class="navbar-nav"
+                    > <a href="index.html" class="nav-link active">Home</a>
+                    <a href="features.html" class="nav-link">Features</a>
+                    <a href="pricing.html" class="nav-link">Pricing</a>
+                </div>
+                  </div>
+                </nav>
+            </div>
+         </section>
+         <!-- section one ends here -->
+   
+ <!-- section two starts here -->
+  <section class="row">
+    <div class="col-lg-12" >
+        <!-- below, the div holds the whole content of the carousel -->
+       <div id="carouselExampleAutoplaying" class="carousel slide " data-bs-ride="carousel" >
+  <div class="carousel-inner">
+    <div class="carousel-item active" >
+      <img src="images/img1.jpeg" class="d-block w-100" alt="slide-one" height="400px">
+    </div>
+    <div class="carousel-item">
+      <img src="images/img2.jpeg" class="d-block w-100" alt="slide-two" >
+    </div>
+    <div class="carousel-item">
+      <img src="images/img3.jpeg" class="d-block w-100" alt="slide-three">
+    </div>
+    <div class="carousel-item">
+        <img src="images/fsh.jpeg" class="d-block w-100" alt="slide-four">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+    </div>
+  </section>
+  <!-- section two ends here -->
+   <br><br><br>
+   <!--section three starts here -->
+   <section>
+    <h3 class="text-success">Founder's notes</h3>
+    <p class="text-danger">" The Jamaa Local Foodmarket Community provides food direct from the farm to the consumers table without involving brokers. This creates a much cheaper way of living since food is essential to our daily lives"</p>
+   </section>
+   <!-- section three ends here-->
+    <br><br>
+    <!-- section four ends here -->
+   <section class="row" >
+    <div class=" col-lg-3">
+                <div class="card shadow">
+                    <div class="card-header">
+                        <h5>tomatoes</h5>
+                    </div>
+                    <div class="card-body">
+                        <img src="images/tmt.jpeg" alt="" height="170px">
+                    </div>
+                    <div class="card-footer">
+                       <p> </p>
+                       <b class="text-warning">Available</b>
+                    </div>
+                </div>
+             </div>
+
+    <div class=" col-lg-3">
+                <div class="card shadow">
+                    <div class="card-header">
+                        <h5>Chillies</h5>
+                    </div>
+                    <div class="card-body" >
+                        <img src="images/chillies.jpeg" alt="" >
+                    </div>
+                    <div class="card-footer">
+                
+                       <b class="text-warning"> Available</b>
+                    </div>
+                </div>
+             </div>
+   
+    <div class="col-lg-3">
+        <div class="card shadow">
+            <div class="card-header">
+                <h5>Onions</h5>
+            </div>
+            <div class="card-body">
+                <img src="images/onions.jpeg" alt="">
+            </div>
+            <div class="card-footer">
+                <b class="text-warning"> Available</b>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-3">
+        <div class="card shadow">
+            <div class="card-header">
+                <h5>Potatoes</h5>
+            </div>
+            <div class="card-body">
+                <img src="images/ptt1.webp" alt="" height="180px">
+            </div>
+            <div class="card-footer">
+                <b class="text-warning"> Available</b>
+            </div>
+        </div>
+    </div>
+   </section>
+   <!-- section four ends here -->
+    <br><br>
+    <!-- section five starts here -->
+     <section class="row">
+      <div class=" col-lg-3">
+                <div class="card shadow">
+                    <div class="card-header">
+                        <h5>Fish</h5>
+                    </div>
+                    <div class="card-body">
+                        <img src="images/fsh.jpeg" alt="">
+                    </div>
+                    <div class="card-footer">
+                       <p></p>
+                       <b class="text-warning"> Available</b>
+                    </div>
+                </div>
+             </div>
+    <div class=" col-lg-3">
+                <div class="card shadow">
+                    <div class="card-header">
+                        <h5>Chicken</h5>
+                    </div>
+                    <div class="card-body">
+                        <img src="images/chckn.jpeg" alt="" height="170px">
+                    </div>
+                    <div class="card-footer">
+                       <p></p>
+                       <b class="text-warning">Available</b>
+                    </div>
+                </div>
+             </div>
+
+              <div class=" col-lg-3">
+                <div class="card shadow">
+                    <div class="card-header">
+                        <h5>Omena</h5>
+                    </div>
+                    <div class="card-body">
+                        <img src="images/omn.jpeg" alt="" height="170px">
+                    </div>
+                    <div class="card-footer">
+                       <p></p>
+                       <b class="text-warning">Available</b>
+                    </div>
+                </div>
+             </div>
+
+              <div class=" col-lg-3">
+                <div class="card shadow">
+                    <div class="card-header">
+                        <h5>Beef</h5>
+                    </div>
+                    <div class="card-body">
+                        <img src="images/meat.webp" alt="" height="170px">
+                    </div>
+                    <div class="card-footer">
+                       <p></p>
+                       <b class="text-warning">Available</b>
+                    </div>
+                </div>
+             </div>
+    </section>
+    <!-- section -->
+     <br><br>
+<!-- section -->
+     <section class="row">
+        <h3 class="text-danger">Delivery services</h3>
+        <br>
+        <div class="col-lg-6">
+             <img src="images/bd2.webp" alt="">
+        </div>
+        <div class="col-lg-6">
+             <p class="font">We enure fast and SAFE delivery of goods for those int he community. From our bodaboda to our pickup deliveris, the goods will arrive at your door step as fresh as they have never been. </p>
+             <p class="font">
+                We do both retail and wholesale deliveries with an affordable.
+             </p>
+        </div>
+     </section>
+     <!-- section five ends here -->
+      <br><br>
+      <!-- section six atart here -->
+       <section class="row">
+        <h2>REVIEWS</h2>
+        <div class="col-lg-6"> 
+            <img src="images/hmn2.webp" alt="">
+        </div>
+        <div class="col-lg-6"><P><b>Charity (Tomato farmer)</b> The Jamaalocalfoodmarketcommunity has helped me as a tomato farmer to counter the losses I get from the brokers since it leaves directly from the farm to our consumers' tables. </P>
+            <p>
+                <B>Mzee Mathayo(poultry farmer)</B>
+                We thank th founder of jamaalocalfoodmarketcommunityfor helping us as farmers to increase our profits and build a reliable union with the cosumers. I wish for more associations in the years to come.
+            </p>
+ </div>
+       </section>
+       <!-- section six ends here -->
+    
+       <br><br>
+       <!-- section seven start here -->
+
+       <!-- section eight starts here -->
+      <footer > <section class="row bg-warning">
+            <div class="col-lg-4 p-5">
+                <h4 class="text-center text-white" >About us</h4>
+                <p>We are located near K-Mall Kngundo Road</p>
+                <B>Reach us through:
+                    07 16 777 7772
+                   @jamaalocalfoodmarketcommunity.gmail.com
+                </B>
+
+            </div>
+            <div class="col-md-4">
+                <h4 class="text-white">Contact us</h4>
+                <form >
+                    <input type="email" placeholder="Enter E-mail address"><br><br>
+                    <textarea name="" id=""></textarea>
+                </form>
+            </div>
+            <div class="col-md-4">
+                <h4>Stay connected</h4>
+                <a href="https://www.facebook.com">
+                    <img src="images/fb.webp" alt="facebook" height="100px">
+                </a>
+                <a href="https:www.instagram.com">
+                    <img src="images/in.webp" alt=" instagram" height="100px">
+                </a>
+                <a href="https:www,twitter.com">
+                    <img src="images/t.png" alt="twitter" height="100px">
+                </a>
+                 <b>
+                We look forward to a highly functioning local market. join us today to build a more reliable future at Jamaalocalfoodmarketcommunity.
+            </b>
+            </div>
+            </section>
+         </footer>
+         <!-- section eight ends here -->
+</body>
+</html>
